@@ -4,6 +4,7 @@ import requests
 # TaxiFareModel front
 
 st.title("New York Taxi Fare Prediction")
+st.image("https://a.co/d/gc3ceCd")
 date = st.date_input('select date')
 time = st.time_input('select the time')
 pickup_longitude = st.text_input('pickup longitude', value=-73.950655)
