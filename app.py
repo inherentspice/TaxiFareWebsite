@@ -20,5 +20,6 @@ payload = {'pickup_datetime': date_time, 'pickup_longitude': str(pickup_longitud
 url = 'https://taxi-image-kr575za6oa-uw.a.run.app/predict?'
 
 answer = requests.get(url, params=payload).json()
+price = answer.get('fare')
 
-st.text(f"Your fare will be approximately: {answer}")
+st.text(f"Your fare will be approximately: {price}")
