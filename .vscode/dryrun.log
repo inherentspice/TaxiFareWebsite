@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/inherentspice/code/inherentspice/TaxiFareWebsite'
+pip install -r requirements.txt
+make: Leaving directory '/home/inherentspice/code/inherentspice/TaxiFareWebsite'
+ 
