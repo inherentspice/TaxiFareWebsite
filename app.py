@@ -21,4 +21,4 @@ url = 'https://taxi-image-kr575za6oa-uw.a.run.app/predict?'
 
 answer = requests.get(url, params=payload).json()
 
-st.text(answer)
+st.text(f"Your fare will be approximately: {answer}")
